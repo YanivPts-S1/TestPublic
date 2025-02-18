@@ -11,7 +11,7 @@ metadata:
   name: secret-dotfiles-pod
 spec:
   volumes:
-    - name: secret-volume
+    - name: secret-volumes
       secret:
         secretName: dotfile-secret
   containers:
